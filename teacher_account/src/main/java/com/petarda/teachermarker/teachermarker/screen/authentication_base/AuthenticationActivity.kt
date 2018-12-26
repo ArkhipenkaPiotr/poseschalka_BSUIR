@@ -52,11 +52,8 @@ class AuthenticationActivity : BaseFragmentActivity() {
         })
 
     companion object {
-        fun newIntent(context: Context, attachFragment: MODE): Intent {
-            val intent = Intent(context, AuthenticationActivity::class.java)
-            intent.putExtra(MODE_KEY, attachFragment)
-
-            return intent
+        fun newIntent(context: Context): Intent {
+            return Intent(context, AuthenticationActivity::class.java)
         }
 
         private const val MODE_KEY = "mode"

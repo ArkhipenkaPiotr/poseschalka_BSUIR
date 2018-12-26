@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.petarda.teachermarker.teachermarker.screen.authentication_base.AuthenticationActivity;
 import com.urban.basicsample.util.PassEncrypter;
 
 import java.io.BufferedReader;
@@ -182,7 +183,8 @@ public class LoginActivity extends Activity implements OnClickListener/*,
 		Log.i(Tag, "LoginActivity   onClick");
 		switch (v.getId()) {
 		case R.id.b_admin:
-			showDialog(DIALOG);
+//			showDialog(DIALOG);
+			startTeacherAuth();
 			break;
 		case R.id.b_stud:
 			//showDialog(ST_DIALOG);
@@ -198,6 +200,18 @@ public class LoginActivity extends Activity implements OnClickListener/*,
 
 	}
 
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (resultCode == RESULT_OK) {
+			Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+			startActivity(intent);
+		}
+	}
+
+	private void startTeacherAuth() {
+		Intent intent = AuthenticationActivity.Companion.newIntent(getApplicationContext());
+		startActivityForResult(intent, 1);
+	}
 	/*@Override
 	public void onNavigationDrawerItemSelected(int position) {
 		// update the main content by replacing fragments
@@ -238,6 +252,5 @@ public class LoginActivity extends Activity implements OnClickListener/*,
 			((LoginActivity) activity).onSectionAttached(getArguments().getInt(ARG_SECTION_NUMBER));
 		}
 	}*/
-
 
 }

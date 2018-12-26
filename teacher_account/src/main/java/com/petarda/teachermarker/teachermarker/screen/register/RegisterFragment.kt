@@ -1,5 +1,6 @@
 package com.petarda.teachermarker.teachermarker.screen.register
 
+import android.app.Activity.RESULT_OK
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -91,8 +92,10 @@ class RegisterFragment : BaseFragment() {
     }
 
     private fun moveToNextScreen() {
-        val intent = Intent(activity, SubjectsActivity::class.java)
-        startActivity(intent)
+//        val intent = Intent(activity, SubjectsActivity::class.java)
+//        startActivity(intent)
+        activity?.setResult(RESULT_OK)
+        activity?.finish()
     }
 
     private fun showPasswordIncorrectError() {

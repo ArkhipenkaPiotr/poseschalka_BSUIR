@@ -1,6 +1,7 @@
 package com.petarda.teachermarker.teachermarker.screen.login
 
 import android.Manifest
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -157,7 +158,7 @@ class LoginFragment : BaseFragment() {
     }
 
     private fun moveToNextScreen() {
-        val intent = Intent(activity, SubjectsActivity::class.java)
-        startActivity(intent)
+        activity?.setResult(Activity.RESULT_OK)
+        activity?.finish()
     }
 }
