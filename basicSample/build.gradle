@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.urban.basicsample"
         minSdkVersion 16
-        targetSdkVersion 16
+        targetSdkVersion 19
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_7
             targetCompatibility JavaVersion.VERSION_1_7
@@ -32,7 +32,9 @@ android {
 }
 
 dependencies {
-    compile project(':aFileChooser')
-    compile files('libs/poi-3.12-20150511.jar')
-    compile files('libs/androidtfm.jar')
+    implementation project(':aFileChooser')
+    implementation files('libs/poi-3.12-20150511.jar')
+    implementation files('libs/androidtfm.jar')
+
+    implementation 'com.android.support:support-v4:19.1.0'
 }

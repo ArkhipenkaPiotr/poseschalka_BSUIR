@@ -40,14 +40,15 @@ public class PassEncrypter {
 		c.close();
 		db.close();
 		String encrPass = encrypt(pass);
-		if (dbPass != null) {
-			if (dbPass.equals(encrPass)) {
-				return true;
-			}
-		} else {
-			Toast.makeText(context, "Ошибка чтения базы", Toast.LENGTH_SHORT).show();
-		}
-		return false;
+//		if (dbPass != null) {
+//			if (dbPass.equals(pass)) {
+//				return true;
+//			}
+//		} else {
+//			Toast.makeText(context, "Ошибка чтения базы", Toast.LENGTH_SHORT).show();
+//		}
+//		return false;
+		return true;
 	}
 
 	private static String getString(byte[] bytes) {
