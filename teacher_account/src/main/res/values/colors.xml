@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="dialog_txt">#DE363636</color>
+    <color name="dialog_background">#F2FFFFFF</color>
+
+    <color name="background">#22273A</color>
+    <color name="background_transparent">#8c22273a</color>
+    <color name="background_navigation">#1AFBFCFF</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_v_transparent">#00FFFFFF</color>
+    <color name="custom_red">#FFF0553E</color>
+    <color name="dark_red">#860000</color>
+</resources>

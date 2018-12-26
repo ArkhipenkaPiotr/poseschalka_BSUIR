@@ -1,0 +1,41 @@
+<resources>
+    <string translatable="false" name="app_name">TeacherMarker</string>
+    <string translatable="false" name="shared_preferences">shared_preferences</string>
+
+    <string name="wrong_credentials">Wrong credentials</string>
+
+    <string name="manager_number">+357 99 34445</string>
+    <string name="manager_email">manager@cardpay.com</string>
+    <string name="manager_contact">manager contact</string>
+    <string name="sign_in">Sign in</string>
+    <string name="decline_sign_in">Decline sign in</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="set_company_pin">Set company pin</string>
+    <string name="repeat_company_pin">Repeat company pin</string>
+    <string name="cancel">Cancel</string>
+    <string name="pin_doesn_t_match">Pin doesn\'t match</string>
+    <string name="set_company_display_name">Set company display name</string>
+    <string name="name">Name</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="database_name">marker.db</string>
+
+
+    <string name="wrong_password_sign_in">Incorrect passsword</string>
+    <string name="no_exist_uset_sign_in">Such user not exist</string>
+    <string name="exist_user_sign_up">Such user name is exist</string>
+    <string name="doesnt_match_error">Does not match password</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="create_account">Create account</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="add_new_subject">Добавьте новую дисциплину</string>
+    <string name="add">Добавить</string>
+    <string name="or_choose_existing">Или выберите существиющую</string>
+    <string name="input_number_of_group">Введите номер группы</string>
+    <string name="start_searching">Начать поиск</string>
+    <string name="input_lessons_amount">Введите количество занятий</string>
+    <string name="lessons_amount">Кол-во пар</string>
+</resources>

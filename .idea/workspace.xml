@@ -36,425 +36,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170f341f-3e54-495d-9a20-7ab23beda22a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/androidtfm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_3_12_20150511.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/androidTest/java/com/petarda/teachermarker/teachermarker/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/TeacherMarkerApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/JournalApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/Employee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/ExamSchedule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/ExamScheduleModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/Journal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/JournalSchedule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/ScheduleModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/api/model/StudentGroup.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/base/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/base/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/base/BaseFragmentActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/base/BaseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/ScheduleMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/SubjectMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/authentication/AuthenticationInteractor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/authentication/AuthenticationInteractorImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/authentication/exception/IncorrectPasswordException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/authentication/exception/NoSuchUserException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/authentication/exception/PasswordsDoesntMatchException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/authentication/exception/SuchUserAlreadyExistException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/schedule/ScheduleInteractor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/schedule/ScheduleInteractorImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/subjects/SubjectsInteractor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/subjects/SubjectsInteractorImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/user_preference/preferences/LocalUserSharedPreferencesRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/user_preference/preferences/LocalUserSharedPreferencesRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/interactor/user_preference/preferences/exception/NoCurrentLocalUserException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/model/CurrentUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/model/Schedule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/business/model/Subject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/di/component/AppComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/di/module/ApiModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/di/module/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/di/module/BusinessModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/di/module/DatabaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/room/TeacherMarkerDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/room/dao/RoomSubjectDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/room/dao/RoomUserDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/room/model/RoomSubject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/room/model/RoomUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/authentication_base/AuthenticationActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/authentication_base/AuthenticationViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/find_subject/FindSubjectViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/find_subject/FindSubjectsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/find_subject/LessonsPickerFragmentDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/find_subject/recycler/SubjectHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/find_subject/recycler/SubjectsAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/login/LoginFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/login/LoginViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/register/RegisterFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/register/RegisterViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/subjects/SubjectsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/subjects/SubjectsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/subjects/recycler/SubjectHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/screen/subjects/recycler/SubjectsAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/util/ActivityExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/util/DateUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/util/FragmentExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/util/ObservableExtentions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/java/com/petarda/teachermarker/teachermarker/util/ParcelableExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/back_float.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/back_float_contact.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/background_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/bck_incoming_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/bck_outcoming_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/bck_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/bck_password_for_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/bck_search_contacts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/bck_username.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/button_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/ic_icn_chats.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/activity_authentication.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/activity_find_subjects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/activity_subjects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/dialog_pick_lessons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/item_subject.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/layout/item_subject_with_lessons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_account/src/test/java/com/petarda/teachermarker/teachermarker/ExampleUnitTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/aFileChooser/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/buildConfig/androidTest/debug/com/ipaulpro/afilechooser/test/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/buildConfig/debug/com/ipaulpro/afilechooser/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/aFileChooser/build/generated/source/buildConfig/debug/com/ipaulpro/afilechooser/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/buildConfig/release/com/ipaulpro/afilechooser/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/androidTest/debug/com/ipaulpro/afilechooser/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/androidTest/debug/com/ipaulpro/afilechooser/test/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/debug/com/ipaulpro/afilechooser/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/generated/source/r/release/com/ipaulpro/afilechooser/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-fr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-ga.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-it.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-ko.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-pl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rBR.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values-v19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/multi/values.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/single/layout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/blame/res/androidTest/debug/single/xml.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/layout/file.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-ga/values-ga.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-v11/values-v11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values-v19/values-v19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/debug/res/xml/mimetypes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-hdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-hdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-hdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-hdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-mdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-mdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-mdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-mdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xxhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xxhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xxhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/drawable-xxhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/layout/file.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-ga/values-ga.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-v11/values-v11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values-v19/values-v19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/bundles/release/res/xml/mimetypes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ianhanniballake/localstorage/LocalStorageProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileChooserActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileChooserActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileListAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileListFragment$Callbacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileListFragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/FileLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$attr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$bool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$dimen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R$xml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/utils/FileUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/utils/FileUtils$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/utils/FileUtils$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/classes/release/com/ipaulpro/afilechooser/utils/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/compileReleaseAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeReleaseAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/incremental/packageReleaseResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/layout/file.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-ga/values-ga.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-v11/values-v11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values-v19/values-v19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/merged/androidTest/debug/xml/mimetypes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/res/resources-debug-androidTest.ap_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/intermediates/symbols/androidTest/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/outputs/aar/aFileChooser-debug.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/build/outputs/aar/aFileChooser-release.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aFileChooser/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aFileChooser/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/basicSample.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/generated/source/buildConfig/androidTest/debug/com/urban/basicsample/test/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/generated/source/buildConfig/debug/com/urban/basicsample/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build/generated/source/buildConfig/debug/com/urban/basicsample/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/generated/source/r/debug/com/ipaulpro/afilechooser/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/generated/source/r/debug/com/urban/basicsample/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-fr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-ga.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-it.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-ko.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-pl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-v11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-v14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-v19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/blame/res/debug/single/xml.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$bool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$dimen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R$xml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/ipaulpro/afilechooser/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/AddStudentActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/AddStudentActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/AddStudentActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/AddStudentActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ChangePassActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ChangeStudentActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ChangeStudentActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ListActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ListActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ListActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ListActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ListActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ListDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/LoginActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/LoginActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/MainActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/MainActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/MainActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/MainActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/MainActivity$PlaceholderFragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/MainActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragment$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragment$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragment$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragment$NavigationDrawerCallbacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragmentMain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/NavigationDrawerFragmentMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$attr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$bool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$dimen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R$xml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/ScanActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentAttListActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/StudentListActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/adapter/DetailsAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/adapter/LessonAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/adapter/StudentAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/adapter/StudentAttAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/FPDisplay$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/FPDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/FingerId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/InitApi$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/InitApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpEnroll$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpEnroll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpGrab$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpGrab$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpGrab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpNavigate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpNavigateSettings$ArrowModeParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpNavigateSettings$LongTouchMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpNavigateSettings$MouseModeParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpNavigateSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyAll$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyAll$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyNew$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyNew$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyNew$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/OpVerifyNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/PtHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$8$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/core/SampleActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/dao/DBHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/Attendance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/CustomDialog1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/CustomDialog1$MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/CustomDialog1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/Lesson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/Schedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/parser/Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/parser/Parser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/parser/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/util/DbUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/util/Exporter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/util/Importer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/classes/debug/com/urban/basicsample/util/PassEncrypter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-hdpi-v4/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-mdpi-v4/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_chooser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_provider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable/hbutton.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable/hbutton_focussed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable/hbutton_normal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/drawable/hbutton_pressed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_add_student.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_change_pass.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_change_student.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_list1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_list_details.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_scan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_student.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_student_att_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/activity_student_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/dialog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/file.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/fpdisplay.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/fragment_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/fragment_main1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/fragment_navigation_drawer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/fragment_navigation_drawer1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/list_item1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/list_item2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/list_item3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/list_item_student.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/pref.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/layout/spinner_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/change_pass.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/global.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/list_details.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/scan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/student_att_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/menu/student_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-ga/values-ga.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-v11/values-v11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-v14/values-v14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-v19/values-v19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/xml/device_filter.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/merged/debug/xml/mimetypes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/resources-debug-androidTest.ap_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/res/resources-debug.ap_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libjniPtapi.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/outputs/apk/basicSample-debug.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/util/PassEncrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/util/PassEncrypter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="BasicSample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -486,10 +172,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basicSample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
+            <state relative-caret-position="201">
               <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
@@ -528,13 +214,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -558,6 +237,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/dao/DBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1309">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -5222,11 +4910,33 @@
             </path>
             <path>
               <item name="poseschalka_BSUIR" type="1abcf292:AndroidViewProjectNode" />
-              <item name="basicSample" type="feadf853:AndroidModuleNode" />
+              <item name="teacher_account" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="poseschalka_BSUIR" type="1abcf292:AndroidViewProjectNode" />
               <item name="teacher_account" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="poseschalka_BSUIR" type="1abcf292:AndroidViewProjectNode" />
+              <item name="teacher_account" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="teachermarker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poseschalka_BSUIR" type="1abcf292:AndroidViewProjectNode" />
+              <item name="teacher_account" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="teachermarker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poseschalka_BSUIR" type="1abcf292:AndroidViewProjectNode" />
+              <item name="teacher_account" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="teachermarker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="poseschalka_BSUIR" type="1abcf292:AndroidViewProjectNode" />
@@ -5738,7 +5448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545827572899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add teacher account module">
+      <created>1545835025603</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1545835025603</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5879,7 +5596,8 @@
     <MESSAGE value="учебные недели автоматом" />
     <MESSAGE value="finish + log_file + изменил картинку" />
     <MESSAGE value="Split application for any devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split application for any devices" />
+    <MESSAGE value="Add teacher account module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add teacher account module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -7350,13 +7068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/dao/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/util/PassEncrypter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -7464,8 +7175,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basicSample/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="201">
           <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicSample/src/main/java/com/urban/basicsample/dao/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1309">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

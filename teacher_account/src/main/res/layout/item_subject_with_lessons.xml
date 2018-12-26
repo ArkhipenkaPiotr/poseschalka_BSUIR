@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@color/dark_red"
+              android:clickable="true"
+              android:focusable="true"
+              android:padding="@dimen/default_padding"
+              android:layout_margin="@dimen/small_padding">
+
+    <TextView
+            android:id="@+id/lessonType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/default_extra_large_text_size"
+            android:layout_gravity="center_vertical"
+            tools:text="ЛБ"/>
+
+    <TextView
+            android:id="@+id/subjectName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/default_extra_large_text_size"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            tools:text="Эис"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="@dimen/default_extra_large_text_size"
+            android:id="@+id/emploeesTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            tools:text="Осипович \n Егоров"/>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:text="@string/lessons_amount"/>
+
+        <TextView
+                android:id="@+id/lessonsAmountTextView"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="@dimen/default_extra_extra_large_text_size"
+                tools:text="16"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
