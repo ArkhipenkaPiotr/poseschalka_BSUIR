@@ -28,6 +28,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.ipaulpro.afilechooser.utils.FileUtils;
+import com.petarda.teachermarker.teachermarker.screen.subjects.SubjectsActivity;
 import com.urban.basicsample.dao.DBHelper;
 import com.urban.basicsample.model.CustomDialog1;
 import com.urban.basicsample.parser.Loader;
@@ -90,7 +91,8 @@ public class MainActivity extends Activity implements NavigationDrawerFragmentMa
 			startActivity(intent);
 			break;
 		case 2:
-			showDialog(LIST_DIALOG);
+			Intent subjectsIntent = new Intent(this, SubjectsActivity.class);
+			startActivity(subjectsIntent);
 			break;
 		case 3:
 			showDialog(DIALOG);
@@ -112,7 +114,7 @@ public class MainActivity extends Activity implements NavigationDrawerFragmentMa
 				Toast.makeText(getApplicationContext(), "Нет доступа к интернету!!!",
 						Toast.LENGTH_SHORT).show();
 			}
-			break;}
+		}
 		case 7:
 			Intent intent1 = new Intent(this, LoginActivity.class);
 			intent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

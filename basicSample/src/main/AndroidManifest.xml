@@ -104,6 +104,12 @@
 
         <activity android:name="com.petarda.teachermarker.teachermarker.screen.authentication_base.AuthenticationActivity"
             android:theme="@style/Theme.AppCompat"/>
+
+        <activity android:name="com.petarda.teachermarker.teachermarker.screen.subjects.SubjectsActivity"
+            android:theme="@style/Theme.AppCompat"/>
+
+        <activity android:name="com.petarda.teachermarker.teachermarker.screen.find_subject.FindSubjectsActivity"
+            android:theme="@style/Theme.AppCompat"/>
     </application>
 
 </manifest>
